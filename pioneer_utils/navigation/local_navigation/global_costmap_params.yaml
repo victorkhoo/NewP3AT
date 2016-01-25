@@ -13,7 +13,6 @@ global_costmap:
 
   plugins:
       - {name: obstacle_layer_kinect,        type: "costmap_2d::VoxelLayer"}
-      - {name: obstacle_layer_laser,       type: "costmap_2d::VoxelLayer"}
       - {name: inflation_layer,       type: "costmap_2d::InflationLayer"}
 
   obstacle_layer_kinect:
